@@ -1,27 +1,5 @@
 import React, { useState } from 'react';
 
-// ===============================================
-// SCENARIO (from the image):
-// You are developing a simple weather application for travelers who need
-// real-time weather updates before planning their trips.
-//
-// PROBLEM STATEMENT:
-// Build a Weather Dashboard that fetches real-time weather data from the
-// OpenWeather API and displays it in a user-friendly web application.
-//
-// KEY POINTS:
-// 1. Use OpenWeather API (or any free weather API) to fetch data.
-// 2. Implement a clean and responsive UI using HTML, CSS, and JavaScript (or React.js).
-// 3. Handle API errors gracefully (e.g., invalid city name should show an error message).
-// 4. Deploy the application on a free hosting platform (Render, Railway, Netlify, etc.)
-// 5. Store the project on GitHub, and detail your documentation in the README file.
-//
-// EXPECTED OUTPUT:
-// 1. A deployed web application where users can search for any city's weather.
-// 2. Weather details such as temperature (°C/°F), humidity (%), and a short weather description.
-// 3. A visually appealing UI with weather-related icons.
-// ===============================================
-
 function App() {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
